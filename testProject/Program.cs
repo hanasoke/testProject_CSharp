@@ -98,18 +98,77 @@
             //Console.WriteLine(belajar.yellow);
             //Console.WriteLine(belajar.blue);
 
-            Car Ford = new Car();
-            Ford.model = "Mustang";
-            Ford.color = "Red";
-            Ford.year = 2020;
+            //Car Ford = new Car();
+            //Ford.model = "Mustang";
+            //Ford.color = "Red";
+            //Ford.year = 2020;
 
-            Car Opel = new Car();
-            Opel.model = "Astra";
-            Opel.color = "White";
-            Opel.year = 2007;
+            //Car Opel = new Car();
+            //Opel.model = "Astra";
+            //Opel.color = "White";
+            //Opel.year = 2007;
 
-            Console.WriteLine(Ford.model + " " + Ford.color + " " + Ford.year);
-            Console.WriteLine(Opel.model + " " + Opel.color + " " + Opel.year);
+            //Opel.fullThrottle();
+
+            //Console.WriteLine(Ford.model + " " + Ford.color + " " + Ford.year);
+            //Console.WriteLine(Opel.model + " " + Opel.color + " " + Opel.year);
+
+            Motor Beat = new Motor();
+            Beat.nama = "Honda Beat";
+            Beat.brand = "Honda";
+            Beat.tipe = "Matic";
+            Beat.tahun = 2023;
+            Beat.warna = "Merah";
+            Beat.kapasitas_mesin = "110cc";
+            Beat.jenis_mesin = "4 Tak, SOHC, eSP";
+
+            Motor NMAX = new Motor();
+            NMAX.nama = "Yamaha NMAX";
+            NMAX.brand = "Yamaha";
+            NMAX.tipe = "Matic";
+            NMAX.tahun = 2022;
+            NMAX.warna = "Hitam";
+            NMAX.kapasitas_mesin = "155cc";
+            NMAX.jenis_mesin = "4 Tak, SOHC, VVA, Blue Core";
+
+            Motor Vario = new Motor();
+            Vario.nama = "Honda Vario 160";
+            Vario.brand = "Honda";
+            Vario.tipe = "Matic";
+            Vario.tahun = 2024;
+            Vario.warna = "Putih";
+            Vario.kapasitas_mesin = "160cc";
+            Vario.jenis_mesin = "4 Tak, SOHC, eSP+,4-Valve";
+
+            Motor Satria = new Motor();
+            Satria.nama = "Suzuki Satria F150";
+            Satria.brand = "Suzuki";
+            Satria.tipe = "Manual";
+            Satria.tahun = 2021;
+            Satria.warna = "Biru";
+            Satria.kapasitas_mesin = "147cc";
+            Satria.jenis_mesin = "4 Tak, DOHC, 4-Valve";
+
+            Motor Ninja = new Motor();
+            Ninja.nama = "Kawasaki Ninja 250";
+            Ninja.brand = "Kawasaki";
+            Ninja.tipe = "Manual";
+            Ninja.tahun = 2021;
+            Ninja.warna = "Hijau";
+            Ninja.kapasitas_mesin = "249cc";
+            Ninja.jenis_mesin = "4 Tak, DOHC, 8-Valve, Parallel Twin";
+
+            Console.WriteLine("------------------------------- Data Motor -------------------------");
+            Console.WriteLine("Nama : " + Beat.nama + "\nBrand : " + Beat.brand + "\nTipe : " + Beat.tipe + "\nTahun : " + Beat.tahun + "\nWarna : " + Beat.warna + "\nKapasitas Mesin : " + Beat.kapasitas_mesin + "\nJenis Mesin : " + Beat.jenis_mesin);
+            Console.WriteLine("------------------------------------------------------------------");
+            Console.WriteLine("Nama : " + NMAX.nama + "\nBrand : " + NMAX.brand + "\nTipe : " + NMAX.tipe + "\nTahun : " + NMAX.tahun + "\nWarna : " + NMAX.warna + "\nKapasitas Mesin : " + NMAX.kapasitas_mesin + "\nJenis Mesin : " + NMAX.jenis_mesin);
+            Console.WriteLine("------------------------------------------------------------------");
+            Console.WriteLine("Nama : " + Vario.nama + "\nBrand : " + Vario.brand + "\nTipe : " + Vario.tipe + "\nTahun : " + Vario.tahun + "\nWarna : " + Vario.warna + "\nKapasitas Mesin : " + Vario.kapasitas_mesin + "\nJenis Mesin : " + Vario.jenis_mesin);
+            Console.WriteLine("------------------------------------------------------------------");
+            Console.WriteLine("Nama : " + Satria.nama + "\nBrand : " + Satria.brand + "\nTipe : " + Satria.tipe + "\nTahun : " + Satria.tahun + "\nWarna : " + Satria.warna + "\nKapasitas Mesin : " + Satria.kapasitas_mesin + "\nJenis Mesin : " + Satria.jenis_mesin);
+            Console.WriteLine("------------------------------------------------------------------");
+            Console.WriteLine("Nama : " + Ninja.nama + "\nBrand : " + Ninja.brand + "\nTipe : " + Ninja.tipe + "\nTahun : " + Ninja.tahun + "\nWarna : " + Ninja.warna + "\nKapasitas Mesin : " + Ninja.kapasitas_mesin + "\nJenis Mesin : " + Ninja.jenis_mesin);
+            Console.WriteLine("------------------------------------------------------------------");
 
         }
     }
