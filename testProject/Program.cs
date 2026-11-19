@@ -79,12 +79,37 @@
             //}
             //while (a >= 3);
 
-            string[] cars = { "Honda", "Mitsubishi", "Suzuki", "Mercedes Benz", "Volvo", "Lamborghini"};
+            //string[] cars = { "Honda", "Mitsubishi", "Suzuki", "Mercedes Benz", "Volvo", "Lamborghini"};
 
-            foreach(string i in cars)
-            {
-                Console.WriteLine(i);
-            }
+            //foreach(string i in cars)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //int tambah = 54 + 21;
+            //int kali = tambah * 50;
+            //int bagi = 2 * kali / 10;
+
+            //Console.WriteLine(tambah);
+            //Console.WriteLine(kali);
+            //Console.WriteLine(bagi);
+
+            //Belajar belajar = new Belajar();
+            //Console.WriteLine(belajar.yellow);
+            //Console.WriteLine(belajar.blue);
+
+            Car Ford = new Car();
+            Ford.model = "Mustang";
+            Ford.color = "Red";
+            Ford.year = 2020;
+
+            Car Opel = new Car();
+            Opel.model = "Astra";
+            Opel.color = "White";
+            Opel.year = 2007;
+
+            Console.WriteLine(Ford.model + " " + Ford.color + " " + Ford.year);
+            Console.WriteLine(Opel.model + " " + Opel.color + " " + Opel.year);
 
         }
     }
