@@ -178,23 +178,43 @@
             //myPig.animalSound();
             //myDog.animalSound();
 
-            Level myVar = Level.Professional;
-            switch(myVar)
+            //Level myVar = Level.Professional;
+            //switch(myVar)
+            //{
+            //    case Level.Beginner:
+            //        Console.WriteLine("Beginner level");
+            //        break;
+            //    case Level.Amateur:
+            //        Console.WriteLine("Amateur level");
+            //        break;
+            //    case Level.Regular:
+            //        Console.WriteLine("Regular level");
+            //        break;
+            //    case Level.Professional:
+            //        Console.WriteLine("Professional level");
+            //        break;
+            //    case Level.Legend:
+            //        Console.WriteLine("Legend level");
+            //        break;
+            //}
+
+            Social_Media sosmed = Social_Media.Youtube;
+            switch(sosmed)
             {
-                case Level.Beginner:
-                    Console.WriteLine("Beginner level");
+                case Social_Media.Facebook:
+                    Console.WriteLine("Facebook : hanas.bp");
                     break;
-                case Level.Amateur:
-                    Console.WriteLine("Amateur level");
+                case Social_Media.Twitter:
+                    Console.WriteLine("Twitter : @hanas_bp");
                     break;
-                case Level.Regular:
-                    Console.WriteLine("Regular level");
+                case Social_Media.Instagram:
+                    Console.WriteLine("Instagram : @hanasbp");
                     break;
-                case Level.Professional:
-                    Console.WriteLine("Professional level");
+                case Social_Media.LinkedIn:
+                    Console.WriteLine("LinkedIn : Hanas Bayu Pratama");
                     break;
-                case Level.Legend:
-                    Console.WriteLine("Legend level");
+                case Social_Media.Youtube:
+                    Console.WriteLine("Youtube : @hanasbp");
                     break;
             }
         }
