@@ -170,14 +170,33 @@
             //Console.WriteLine("Nama : " + Ninja.nama + "\nBrand : " + Ninja.brand + "\nTipe : " + Ninja.tipe + "\nTahun : " + Ninja.tahun + "\nWarna : " + Ninja.warna + "\nKapasitas Mesin : " + Ninja.kapasitas_mesin + "\nJenis Mesin : " + Ninja.jenis_mesin);
             //Console.WriteLine("------------------------------------------------------------------");
 
-            Animal myAnimal = new Animal();
-            Animal myDog = new Dog();
-            Animal myPig = new Pig();
+            //Animal myAnimal = new Animal();
+            //Animal myDog = new Dog();
+            //Animal myPig = new Pig();
 
-            myAnimal.animalSound();
-            myPig.animalSound();
-            myDog.animalSound();
+            //myAnimal.animalSound();
+            //myPig.animalSound();
+            //myDog.animalSound();
 
+            Level myVar = Level.Professional;
+            switch(myVar)
+            {
+                case Level.Beginner:
+                    Console.WriteLine("Beginner level");
+                    break;
+                case Level.Amateur:
+                    Console.WriteLine("Amateur level");
+                    break;
+                case Level.Regular:
+                    Console.WriteLine("Regular level");
+                    break;
+                case Level.Professional:
+                    Console.WriteLine("Professional level");
+                    break;
+                case Level.Legend:
+                    Console.WriteLine("Legend level");
+                    break;
+            }
         }
     }
 }
