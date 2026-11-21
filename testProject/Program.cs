@@ -220,11 +220,22 @@ namespace testProject
             //        break;
             //}
 
-            Console.Write("Masukkan nama: ");
+            //Console.Write("Masukkan nama: ");
 
-            string nama = Console.ReadLine();
+            //string nama = Console.ReadLine();
 
-            Console.WriteLine("Halo, " + nama);
+            //Console.WriteLine("Halo, " + nama);
+
+            InputKalimat();
+        }
+
+        static void InputKalimat()
+        {
+            Console.Write("Masukkan kalimat: ");
+
+            string kalimat = Console.ReadLine();
+
+            Console.WriteLine("kalimat kamu: " + kalimat);
         }
     }
 }
