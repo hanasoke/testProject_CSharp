@@ -226,16 +226,21 @@ namespace testProject
 
             //Console.WriteLine("Halo, " + nama);
 
-            InputKalimat();
+            //InputKalimat();
+            //InputKalimat();
         }
 
-        static void InputKalimat()
-        {
-            Console.Write("Masukkan kalimat: ");
+        //static void InputKalimat()
+        //{
+        //    Console.Write("Masukkan kalimat: ");
 
-            string kalimat = Console.ReadLine();
+        //    string kalimat = Console.ReadLine();
 
-            Console.WriteLine("kalimat kamu: " + kalimat);
-        }
+        //    Console.WriteLine("kalimat kamu: " + kalimat);
+        //}
+
+        Kalimat hasil = new Kalimat();
+
+        Console.WriteLine("Hasil:" + hasil);
     }
 }
