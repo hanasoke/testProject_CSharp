@@ -1,4 +1,6 @@
-﻿namespace testProject
+﻿using System;
+
+namespace testProject
 {
     internal class Program
     {
@@ -198,25 +200,31 @@
             //        break;
             //}
 
-            Social_Media sosmed = Social_Media.Youtube;
-            switch(sosmed)
-            {
-                case Social_Media.Facebook:
-                    Console.WriteLine("Facebook : hanas.bp");
-                    break;
-                case Social_Media.Twitter:
-                    Console.WriteLine("Twitter : @hanas_bp");
-                    break;
-                case Social_Media.Instagram:
-                    Console.WriteLine("Instagram : @hanasbp");
-                    break;
-                case Social_Media.LinkedIn:
-                    Console.WriteLine("LinkedIn : Hanas Bayu Pratama");
-                    break;
-                case Social_Media.Youtube:
-                    Console.WriteLine("Youtube : @hanasbp");
-                    break;
-            }
+            //Social_Media sosmed = Social_Media.Youtube;
+            //switch(sosmed)
+            //{
+            //    case Social_Media.Facebook:
+            //        Console.WriteLine("Facebook : hanas.bp");
+            //        break;
+            //    case Social_Media.Twitter:
+            //        Console.WriteLine("Twitter : @hanas_bp");
+            //        break;
+            //    case Social_Media.Instagram:
+            //        Console.WriteLine("Instagram : @hanasbp");
+            //        break;
+            //    case Social_Media.LinkedIn:
+            //        Console.WriteLine("LinkedIn : Hanas Bayu Pratama");
+            //        break;
+            //    case Social_Media.Youtube:
+            //        Console.WriteLine("Youtube : @hanasbp");
+            //        break;
+            //}
+
+            Console.Write("Masukkan nama: ");
+
+            string nama = Console.ReadLine();
+
+            Console.WriteLine("Halo, " + nama);
         }
     }
 }
